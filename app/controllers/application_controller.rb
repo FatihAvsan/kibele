@@ -41,7 +41,7 @@ class ApplicationController < ActionController::Base
   private
 
   def set_audit_user
-    # Set audit current user
+
     Audited.current_user_method = :current_user
   end
 
